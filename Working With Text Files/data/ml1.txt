@@ -1,0 +1,64 @@
+Introduction to Machine learning In Detailed
+July 20, 2025
+1 Introduction of Machine Learning
+In this module we are going to learn to we can use the machine in a effective ways and for the
+better utilization of any machine and how we can use the different techniques to teach a machine
+so that a machine can replicate the human behavior and work effectively . so there are some basics
+terms, which is we have to learn it.
+• Machine Learning is the ability of a machine to learn from and replicate the human behavior.
+• It allows programs to learn automatically and make computers more intelligent.
+1.0.1 Key Differences in Artificial Intelligence(AI), Machine Learning(ML) and Deep
+Learning(DL)
+• ML referes the algorithms that learn and perform based on the data exposed to it. Machine
+Learning is used to classify the profile of the bot’s competitor, the human, as:
+• DL referes to layers of neural networks built with Machine Learning algorithms.
+• AI makes decisions with the help of a multi-layered neural network that uses DL AI leverages
+different techniques, including ML and DL.
+1.0.2 Machine Learning Algorithms
+1. Algorithms are a set of instructions used to solve problems.
+2. ML algorithms help to:
+• Predect.
+• Classify .
+• Improve performance of any software application.
+1.0.3 Uses of Machine Learning
+1. The predictions by ML are used to:
+• Shape policies.
+• Make weather forecast.
+• Determine traﬀic rules, CO2, emission, forest degradation, visibility in the sky , wildfire,
+heatwaves, and even the size of chimneys.
+1.0.4 Data and ML
+1. ML is dependent on data.
+1
+2. performance of algorithms is evaluated based on the quality of the input data.
+1.0.5 Types of Machine Learning
+Depending on wheather the algorithm can self-train and predict a condtion or needs to identify
+patterns to derive outcomes.
+1.0.6 1. Supervised Learning
+In supervised learning, the algorithm learns from labeled training data, meaning each input is paired
+with the correct output. The model makes predictions based on this data and is corrected when
+wrong. It is used for: - Classification : Predicting categorical outcomes (e.g., spam vs. non-spam
+emails). - Regression : Predicting continuous outcomes (e.g., stock prices, temperature).
+Examples : - Linear Regression - Decision T rees - Support V ector Machines (SVM)
+1.0.7 2. Unsupervised Learning
+In unsupervised learning, the model learns from unlabeled data and tries to uncover hidden patterns
+or structures. The data does not have pre-defined outputs.
+• Clustering : Grouping similar data points (e.g., customer segmentation).
+• Dimensionality Reduction : Reducing the number of input features (e.g., Principal Com-
+ponent Analysis).
+Examples : - K-means clustering - Hierarchical clustering - Autoencoders
+1.0.8 3. Semi-Supervised Learning
+Semi-supervised learning uses a combination of labeled and unlabeled data. It is useful when
+labeling a large dataset is time-consuming or expensive. The model first learns from a small set of
+labeled data and then extends this learning to a larger set of unlabeled data.
+Example : - Self-training algorithms
+1.0.9 4. Reinforcement Learning
+In reinforcement learning, an agent learns to make decisions by interacting with an environment
+and receiving feedback in the form of rewards or penalties. It learns to take actions that maximize
+cumulative rewards over time.
+Examples : - Q-learning - Deep Q-Networks (DQN) - Policy gradient methods
+1.0.10 5. Self-Supervised Learning
+Self-supervised learning is a type of unsupervised learning where the data itself provides the labels.
+The model learns from part of the data to predict another part (e.g., predicting the next word in
+a sentence).
+Examples : - Generative models like GPT, BER T
+2

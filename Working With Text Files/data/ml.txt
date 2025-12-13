@@ -1,0 +1,148 @@
+Introduction to Machine learning In Detailed
+July 20, 2025
+1 Introduction of Machine Learning
+In this module we are going to learn to we can use the machine in a effective ways and for the
+better utilization of any machine and how we can use the different techniques to teach a machine
+so that a machine can replicate the human behavior and work effectively . so there are some basics
+terms, which is we have to learn it.
+• Machine Learning is the ability of a machine to learn from and replicate the human behavior.
+• It allows programs to learn automatically and make computers more intelligent.
+1.0.1 Key Differences in Artificial Intelligence(AI), Machine Learning(ML) and Deep
+Learning(DL)
+• ML referes the algorithms that learn and perform based on the data exposed to it. Machine
+Learning is used to classify the profile of the bot’s competitor, the human, as:
+• DL referes to layers of neural networks built with Machine Learning algorithms.
+• AI makes decisions with the help of a multi-layered neural network that uses DL AI leverages
+different techniques, including ML and DL.
+1.0.2 Machine Learning Algorithms
+1. Algorithms are a set of instructions used to solve problems.
+2. ML algorithms help to:
+• Predect.
+• Classify .
+• Improve performance of any software application.
+1.0.3 Uses of Machine Learning
+1. The predictions by ML are used to:
+• Shape policies.
+• Make weather forecast.
+• Determine traﬀic rules, CO2, emission, forest degradation, visibility in the sky , wildfire,
+heatwaves, and even the size of chimneys.
+1.0.4 Data and ML
+1. ML is dependent on data.
+1
+2. performance of algorithms is evaluated based on the quality of the input data.
+1.0.5 Types of Machine Learning
+Depending on wheather the algorithm can self-train and predict a condtion or needs to identify
+patterns to derive outcomes.
+1.0.6 1. Supervised Learning
+In supervised learning, the algorithm learns from labeled training data, meaning each input is paired
+with the correct output. The model makes predictions based on this data and is corrected when
+wrong. It is used for: - Classification : Predicting categorical outcomes (e.g., spam vs. non-spam
+emails). - Regression : Predicting continuous outcomes (e.g., stock prices, temperature).
+Examples : - Linear Regression - Decision T rees - Support V ector Machines (SVM)
+1.0.7 2. Unsupervised Learning
+In unsupervised learning, the model learns from unlabeled data and tries to uncover hidden patterns
+or structures. The data does not have pre-defined outputs.
+• Clustering : Grouping similar data points (e.g., customer segmentation).
+• Dimensionality Reduction : Reducing the number of input features (e.g., Principal Com-
+ponent Analysis).
+Examples : - K-means clustering - Hierarchical clustering - Autoencoders
+1.0.8 3. Semi-Supervised Learning
+Semi-supervised learning uses a combination of labeled and unlabeled data. It is useful when
+labeling a large dataset is time-consuming or expensive. The model first learns from a small set of
+labeled data and then extends this learning to a larger set of unlabeled data.
+Example : - Self-training algorithms
+1.0.9 4. Reinforcement Learning
+In reinforcement learning, an agent learns to make decisions by interacting with an environment
+and receiving feedback in the form of rewards or penalties. It learns to take actions that maximize
+cumulative rewards over time.
+Examples : - Q-learning - Deep Q-Networks (DQN) - Policy gradient methods
+1.0.10 5. Self-Supervised Learning
+Self-supervised learning is a type of unsupervised learning where the data itself provides the labels.
+The model learns from part of the data to predict another part (e.g., predicting the next word in
+a sentence).
+Examples : - Generative models like GPT, BER T
+2
+1.0.11 6. T ransfer Learning
+T ransfer learning allows a model trained on one task to be reused on a new but related task. This
+approach is common when there’s limited data for the new task but abundant data for the original
+task.
+Example : - Pre-trained models like ResNet, BER T, and GPT used in different domains.
+Each type of machine learning is used for different problems, and the choice depends on the specific
+task and available data.
+1.0.12 Machine Learning Pipeline
+1. A machine learning(ML) pipeline is a series of sequential steps used to codify and automate
+ML workflows to produce ML models.
+2. ML pipeline is an end-to-end construction that includes and orchestrates:
+• Data extraction.
+• Raw data input.
+• Preprocessing.
+• Model parameters.
+• Model training.
+• Deployment.
+• Predicting outputs.
+3. The term pipeline implies a one-way flow of data but ML pipelines are cyclical and iterative.
+4. Every step in the sequence is repeated until a successful algorithm is achieved.
+1.0.13 Machine Learning and Operations Professionals (MLOps)
+MLOps is a set of practices that combines: - ML - DevOps - Data engineering
+Ensures reliable and eﬀicient deployment and maintenance of ML models in production systems.
+MLOps aims to: - Improve communication and collaboration between MLOps. - Shorten and
+manage complete development life cycle. - Ensure continuous delivery of high-quality predictive
+services.
+3 phases of MLOps
+• Design:
+– Undersanding the business and data, and then designs the ML-powered software
+3
+• Model development:
+– Applicability of ML for the problem is verified by implementing proof of concept(POC)
+• Operations.
+– Delevers the developed ML model in production
+All three MLOps phases are interconnected and influence one another.
+The tools used for MLOps are
+• Kubeflowl
+• MLFlow
+• Data version control(DVC)
+• Pachyderm
+• Metaflow
+• Kedro
+• Seldon Core
+• Flyte
+1.0.14 CI/CD Pipeline Automation
+A continuous integration(CI) or continuous delivery(CD) system is used to: - T est and deploy
+new pipeline implementations automatically - A CI/CD pipeline automation helps with dynamic
+changes in the data and business environment
+Automated Machine Learning(AutoML)
+• Combines the best practices in automation and machine learning
+• It enables organizations to build and deploy ML models using:
+– Predefined templates
+– F rameworks
+– Processes to speed up time to completion
+– Enhances functionality of ML models
+The tools used for AutoML are:
+• Run:AI
+• Auto-Keras
+• H20AutoML
+• SMAC
+• AUTOWEKA
+• AUTO-SKLEARN
+• AUTO-PYTORCH
+• ROBO
+2 Python Libraries Used in Machine Learning
+• Numpy
+• Pandas
+• Matplotlib
+4
+• T ensorFlow
+• Aesara based on Theano
+• SciPy
+• Scikit-learn
+• Keras
+• PyT orch
+Numpy and pandas helps to manage preparation, loading, and manipulation of data.
+T ensorFlow and Aesara is used for fast numerical computing.
+Matplotlib is used to plot data.
+SciPy helps solve mathematical equations and algorithms.
+Scikit-learn provides eﬀicient versions of common algorithms to develop ML models.
+keras makes the implementation of neural networks easy .
+PyT orch specializes in deep learning applications and accelerates the path from prototyping to
+deployment.
+5
