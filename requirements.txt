@@ -3,3 +3,5 @@ pandas
 torch
 ipykernel
 openpyxl
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
