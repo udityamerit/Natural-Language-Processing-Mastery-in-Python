@@ -21,60 +21,34 @@ this course focuses on **real-world NLP applications**, industry-standard librar
 
 ---
 
-## 🧠 Course Curriculum
+## 🧠 Complete Course Curriculum
 
-### 1️⃣ Introduction to Machine Learning & NLP
-
-* Overview of Machine Learning and NLP
-* Environment setup: Anaconda, Python, VS Code, Git Bash
-* Running Python using Jupyter Notebooks (Windows, Ubuntu, macOS)
-
-### 2️⃣ Python Crash Course for Machine Learning
-
-* Python data types, variables, and operators
-* Control flow, loops, functions, and exception handling
-* Data structures: Lists, Tuples, Sets, Dictionaries
-
-### 3️⃣ NumPy for Machine Learning
-
-* Array creation and manipulation
-* Statistical operations and broadcasting
-* Multi-dimensional arrays and reshaping
-* Handling missing values (NaN)
-
-### 4️⃣ Pandas for Data Analysis
-
-* Data loading and inspection
-* Data filtering, slicing, and cleaning
-* GroupBy, aggregation, merging, and joins
-* Handling missing and inconsistent data
-
-### 5️⃣ Working with Text & Data Files
+### 1️⃣ Working with Text & Data Files
 
 * Reading and writing text files
 * Handling CSV, Excel, JSON formats
 * Text extraction from PDFs
 * Introduction to audio file processing
 
-### 6️⃣ Mastering Regular Expressions (Regex)
+### 2️⃣ Mastering Regular Expressions (Regex)
 
 * Pattern matching and searching
 * Text cleaning and extraction using regex
 * Using Python `re` module effectively
 
-### 7️⃣ spaCy for NLP
+### 3️⃣ spaCy for NLP
 
 * Tokenization and POS tagging
 * Named Entity Recognition (NER)
 * Working with pre-trained spaCy models
 
-### 8️⃣ NLTK for NLP
+### 4️⃣ NLTK for NLP
 
 * Tokenization, stemming, lemmatization
 * Named Entity Recognition and chunking
 * Collocations and frequency analysis
 
-### 9️⃣ Complete Text Cleaning Pipeline
+### 5️⃣ Complete Text Cleaning Pipeline
 
 * Removing URLs, hashtags, mentions, stopwords
 * Expanding contractions
@@ -82,13 +56,13 @@ this course focuses on **real-world NLP applications**, industry-standard librar
 * WordCloud visualization
 * Sentiment analysis using TextBlob
 
-### 🔟 Build Your Own Text Processing Python Package
+### 6️⃣ Build Your Own Text Processing Python Package
 
 * Project structure and best practices
 * Writing reusable text processing functions
 * Using `setup.py` for package creation
 
-### 1️⃣1️⃣ Publish Python Package on PyPI
+### 7️⃣ Publish Python Package on PyPI
 
 * Creating GitHub repositories
 * Packaging and versioning
@@ -194,14 +168,56 @@ this course focuses on **real-world NLP applications**, industry-standard librar
 **Uditya Narayan Tiwari**
 B.Tech – Computer Science & Engineering (AI & ML)
 
-* Core Team Member – Blockchain Technology R&D & Matrix Club
-* Experience in Machine Learning, NLP, and Blockchain-based systems
+* Experience in Machine Learning, NLP, Deep Learning
 * Hands-on work in text classification, sentiment analysis, resume parsing, and ML model deployment
 
 🔗 **Portfolio:** [https://udityanarayantiwari.netlify.app/](https://udityanarayantiwari.netlify.app/)
+
 🔗 **GitHub:** [https://github.com/udityamerit](https://github.com/udityamerit)
+
 🔗 **Knowledge Base:** [https://udityaknowledgebase.netlify.app/](https://udityaknowledgebase.netlify.app/)
+
 🔗 **LinkedIn:** [https://www.linkedin.com/in/uditya-narayan-tiwari-562332289/](https://www.linkedin.com/in/uditya-narayan-tiwari-562332289/)
+
+---
+
+## ▶️ Repository Usage Instructions
+
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/udityamerit/Natural-Language-Processing-Mastery-in-Python.git
+cd Natural-Language-Processing-Mastery-in-Python
+```
+
+### 2️⃣ Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv nlp-env
+source nlp-env/bin/activate   # Linux / macOS
+nlp-env\Scripts\activate      # Windows
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 5️⃣ How to Use This Repository
+
+* Begin with **01 Working With Text Files** to understand text handling fundamentals
+* Continue with **02 Working With Regex** for preprocessing and pattern matching
+* Use **test.ipynb** to experiment and practice concepts
+
+Each notebook is **self-contained** and designed for hands-on learning. Following the folder order is recommended for beginners.
 
 ---
 
@@ -210,5 +226,3 @@ B.Tech – Computer Science & Engineering (AI & ML)
 By the end of this course, learners will be able to **design, build, evaluate, and deploy real-world NLP systems** using traditional machine learning, deep learning, and modern NLP libraries. Learners will also gain the confidence to build **industry-level NLP projects and open-source tools**.
 
 ---
-
-📌 *This README is suitable for GitHub repositories, Udemy course pages, professional portfolios, and technical documentation.*
