@@ -10,3 +10,5 @@ PrettyTable
 scikit-learn
 nltk
 beautifulsoup4
+wordcloud
+lxml
