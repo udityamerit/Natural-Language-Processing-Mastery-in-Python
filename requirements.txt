@@ -9,3 +9,4 @@ spacy
 PrettyTable
 scikit-learn
 nltk
+beautifulsoup4
