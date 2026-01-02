@@ -11,6 +11,7 @@ from wordcloud import WordCloud
 from bs4 import BeautifulSoup
 from textblob import TextBlob
 from textblob import Word
+from textblob.sentiments import NaiveBayesAnalyzer
 from spacy.lang.en.stop_words import STOP_WORDS as sw
 
 fpath = os.path.join(os.path.dirname(__file__), 'data/contractions.json')
@@ -115,6 +116,7 @@ def lemmatize(x):
         return ' '.join([token.lemma_ for token in doc])
 
 def get_wordcloud(x):
+    
     cloud = WordCloud(width=800, height=500).generate(x)
     plt.figure(figsize=(15, 7), dpi=100)
     plt.imshow(cloud.to_image(), interpolation='bilinear')
@@ -128,3 +130,22 @@ def correct_spelling(x):
                 words.append(w.correct())
 
         return ' '.join(words)
+
+def get_noun_phrase(x):
+        blob = TextBlob(x)
+        noun_phrase = blob.noun_phrases
+        return noun_phrase
+
+def n_grams(x, n=2):
+        return list(TextBlob(x).ngrams(n))
+
+def singularize_words(x):
+        blob = TextBlob(x)
+        return ' '.join([word.singularize() if tag in ['NNS'] else word for word, tag in blob.tags])
+
+def pluralize_words(x):
+        blob = TextBlob(x)
+        return ' '.join([word.singularize() if tag in ['NN'] else word for word, tag in blob.tags])
+
+def sentiment_analysis(x):
+        return TextBlob(x, analyzer=NaiveBayesAnalyzer()).sentiment.classification
