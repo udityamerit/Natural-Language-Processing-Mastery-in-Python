@@ -8,13 +8,13 @@ This Python package is created by [Uditya Narayan Tiwari](https://youtube.com/kg
 ### Installation from PyPi
 You can install this package using pip as follows:
 ```
-pip install text_preprocessing
+pip install nlp_text_preprocessing
 ```
 
 ### Installation from GitHub
 You can install this package from GitHub as follows:
 ```
-pip install git+https://github.com/laxmimerit/text_preprocessing.git --upgrade --force-reinstall
+pip install git+https://github.com/udityamerit/Text-Processing-Package-For-Natural-Language-Processing.git --upgrade --force-reinstall
 ```
 
 ### Uninstall the Package
@@ -22,25 +22,29 @@ pip install git+https://github.com/laxmimerit/text_preprocessing.git --upgrade -
 To uninstall the package, use the following command:
 
 ```bash
-pip uninstall text_preprocessing
+pip uninstall nlp_text_preprocessing
 ```
 
 ### Requirements
 You need to install these python packages.
 ```
-pip install spacy==3.7.6
-python -m spacy download en_core_web_sm==3.7.1
-pip install nltk==3.9.1
-pip install beautifulsoup4==3.2.2
-pip install textblob==0.18.0.post0
+python -m spacy download en_core_web_sm
+spacy
+textblob
+beautifulsoup4
+nltk
+openpyxl
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+PrettyTable
+scikit-learn
+wordcloud
+lxml
+pandas
+numpy
+matplotlib
 ```
 
-### Download NLTK Data
-If you are using this package first time then You need to download NLTK data as follows:
-```
-import text_preprocessing as tp
-tp.download_nltk_data()
-```
 
 ## How to Use the Package
 
@@ -49,7 +53,7 @@ tp.download_nltk_data()
 #### Lowercasing Text
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "HELLO WORLD!"
 processed_text = tp.to_lower_case(text)
@@ -59,7 +63,7 @@ print(processed_text)  # Output: hello world!
 #### Expanding Contractions
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "I'm learning NLP."
 processed_text = tp.contraction_to_expansion(text)
@@ -69,7 +73,7 @@ print(processed_text)  # Output: I am learning NLP.
 #### Removing Emails
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "Contact me at example@example.com"
 processed_text = tp.remove_emails(text)
@@ -79,7 +83,7 @@ print(processed_text)  # Output: Contact me at
 #### Removing URLs
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "Check out https://example.com"
 processed_text = tp.remove_urls(text)
@@ -89,7 +93,7 @@ print(processed_text)  # Output: Check out
 #### Removing HTML Tags
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "<p>Hello World!</p>"
 processed_text = tp.remove_html_tags(text)
@@ -99,7 +103,7 @@ print(processed_text)  # Output: Hello World!
 #### Removing Special Characters
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "Hello @World! #NLP"
 processed_text = tp.remove_special_chars(text)
@@ -111,7 +115,7 @@ print(processed_text)  # Output: Hello World NLP
 #### Lemmatization
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "running runs"
 processed_text = tp.lemmatize(text)
@@ -121,7 +125,7 @@ print(processed_text)  # Output: run run
 #### Sentiment Analysis
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "I love programming!"
 sentiment = tp.sentiment_analysis(text)
@@ -131,7 +135,7 @@ print(sentiment)  # Output: Sentiment(polarity=0.5, subjectivity=0.6)
 #### Detecting and Translating Language
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 from googletrans import Translator
 
 translator = Translator()
@@ -147,7 +151,7 @@ print(f"Language: {lang}, Translated: {translated_text}")
 #### Word Count
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "I love NLP."
 count = tp.word_count(text)
@@ -157,7 +161,7 @@ print(count)  # Output: 3
 #### Character Count
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "I love NLP."
 count = tp.char_count(text)
@@ -167,7 +171,7 @@ print(count)  # Output: 9
 #### N-Grams
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 text = "I love NLP"
 ngrams = tp.n_grams(text, n=2)
@@ -179,9 +183,9 @@ print(ngrams)  # Output: [('I', 'love'), ('love', 'NLP')]
 Here’s an example of how you might use several functions together to clean text data:
 
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
-text = "I'm loving this NLP tutorial! Contact me at udemy@kgptalkie.com. Visit https://kgptalkie.com."
+text = "I'm loving this NLP tutorial! Contact me at https://www.linkedin.com/in/uditya-narayan-tiwari-562332289/  Visit https://udityanarayantiwari.netlify.app/"
 cleaned_text = tp.clean_text(text)
 print(cleaned_text)
 # Output: i am loving this nlp tutorial contact me at visit
@@ -189,7 +193,7 @@ print(cleaned_text)
 
 ### One Short Feature Extraction
 ```python
-import text_preprocessing as tp
+import nlp_text_preprocessing as tp
 
 tp.extract_features("I love NLP")
 ```

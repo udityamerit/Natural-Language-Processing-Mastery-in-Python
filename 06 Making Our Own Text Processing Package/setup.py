@@ -3,14 +3,13 @@ import setuptools
 with open('Readme.md') as fp:
     long_description = fp.read()
 
-# Use splitlines() to create a list of requirements
 with open('requirements.txt') as fp:
     requirements = fp.read().splitlines()
 
 setuptools.setup(
-    name='text_preprocessing',
+    name='nlp_text_preprocessing',
     include_package_data=True,
-    version='0.0.1',
+    version='0.0.9',  # Increment version
     author='Uditya Narayan Tiwari',
     author_email='tiwarimerit@gmail.com',
     description='This is a Text Processing Package For NLP',
@@ -22,6 +21,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ],
-    
-    python_requires='>=3.10',
+    install_requires=requirements,
+    # explicit instruction to include data files in the package
+    package_data={'nlp_text_preprocessing': ['data/*.json']}, 
+    python_requires='>=3.9',
 )
