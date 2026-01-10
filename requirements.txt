@@ -13,3 +13,4 @@ nltk
 beautifulsoup4
 wordcloud
 lxml
+seaborn
