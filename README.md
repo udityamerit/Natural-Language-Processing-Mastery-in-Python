@@ -1,5 +1,7 @@
 # Natural Language Processing (NLP) with Python
 
+![alt text](Images/nlp.png)
+
 ## 📌 Course Overview
 
 This comprehensive **Natural Language Processing (NLP) with Python** course is designed to take learners from **beginner to advanced level**, covering the complete NLP pipeline — from text preprocessing to deploying machine learning and deep learning models.
